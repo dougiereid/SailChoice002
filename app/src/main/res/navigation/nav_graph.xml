@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.sailchoice002.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/sailChoiceFragment"
+        android:name="com.example.sailchoice002.SailChoiceFragment"
+        android:label="Sail Choice"
+        tools:layout="@layout/fragment_sailchoice" />
+    <fragment
+        android:id="@+id/waypointsFragment"
+        android:name="com.example.sailchoice002.WaypointsFragment"
+        android:label="Waypoints"
+        tools:layout="@layout/fragment_waypoints" />
+    <fragment
+        android:id="@+id/routesFragment"
+        android:name="com.example.sailchoice002.RoutesFragment"
+        android:label="Routes"
+        tools:layout="@layout/fragment_routes" />
+    <fragment
+        android:id="@+id/startLineFragment"
+        android:name="com.example.sailchoice002.StartLineFragment"
+        android:label="Start Line"
+        tools:layout="@layout/fragment_startline" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.sailchoice002.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+</navigation>

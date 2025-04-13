@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeFragment"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/sailChoiceFragment"
+            android:icon="@drawable/ic_sailchoice"
+            android:title="Sail Choice" />
+        <item
+            android:id="@+id/waypointsFragment"
+            android:icon="@drawable/ic_waypoints"
+            android:title="Waypoints" />
+        <item
+            android:id="@+id/routesFragment"
+            android:icon="@drawable/ic_routes"
+            android:title="Routes" />
+        <item
+            android:id="@+id/startLineFragment"
+            android:icon="@drawable/ic_startline"
+            android:title="Start Line" />
+        <item
+            android:id="@+id/aboutFragment"
+            android:icon="@drawable/ic_about"
+            android:title="About" />
+    </group>
+
+</menu>
