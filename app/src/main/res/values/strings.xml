@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">SailChoice002</string>
+    <string name="app_name">Sail Choice</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string-array name="waypoint_formats">
+        <item>Decimal Degrees (DD)</item>
+        <item>Degrees Minutes Seconds (DMS)</item>
+        <item>Degrees Decimal Minutes (DDM)</item>
+    </string-array>
+
 </resources>
